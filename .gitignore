@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment and sensitive configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Build output
+dist/
+*/dist/
+build/
+*/build/
+
+# Uploads and temporary test media
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/fullprep.png
+backend/redtest.png
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
